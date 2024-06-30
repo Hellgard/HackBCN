@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My First Extension</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Scrape Toggle</title>
+  <style>
+    body {
+      min-width: 200px;
+    }
+    #toggle-btn {
+      width: 100%;
+      height: 40px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <button id="clickMe">Click Me</button>
+  <button id="launch">Launch</button>
+  <button id="toggle-btn">Toggle Scraping</button>
   <script src="popup.js"></script>
 </body>
 </html>
