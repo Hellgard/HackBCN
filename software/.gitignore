@@ -4,3 +4,4 @@ pretrained_models/
 wav2vec2_checkpoint/
 _pycache_/
 venv/
+speech.mp3
